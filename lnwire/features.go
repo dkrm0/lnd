@@ -101,6 +101,10 @@ const (
 	// HTLC.
 	MPPOptional FeatureBit = 17
 
+	// KeySend
+	KeySendRequired FeatureBit = 54
+	KeySendOptional FeatureBit = 55
+
 	// AnchorsRequired is a required feature bit that signals that the node
 	// requires channels to be made using commitments having anchor
 	// outputs.
